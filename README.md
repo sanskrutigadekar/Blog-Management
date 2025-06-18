@@ -31,7 +31,7 @@ Environment Variables
 Create a `.env` file in the root with:
 
 ```env
-PORT=5000
+PORT=8080
 MONGODB_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
 ```
@@ -41,7 +41,7 @@ JWT_SECRET=your_secret_key
 Installation & Setup
 
 1. Clone the repo
-git clone https://github.com/your-username/blog-management-api.git
+git clone https://github.com/sanskrutigadekar/Blog-Management.git
 cd blog-management-api
 
 2. Install dependencies
@@ -50,7 +50,7 @@ npm install
 3. Run the server
 npm start
 
-Server will run on http://localhost:5000/
+Server will run on http://localhost:8080/
 
 ⸻
 

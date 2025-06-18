@@ -26,24 +26,6 @@ Tech Stack
 
 ---
 
-Project Structure
-
-blog-management-api/
-│
-├── controllers/             # Business logic
-├── middleware/              # Auth & role checks
-├── models/                  # Mongoose schemas
-├── routes/                  # API route handlers
-├── postman/                 # Postman collection & environment
-├── utils/                   # JWT utility functions
-├── .env                     # Environment variables
-├── .gitignore               # Ignored files
-├── package.json             # Dependencies and scripts
-├── README.md                # Project documentation
-└── server.js                # Entry point
-
----
-
 Environment Variables
 
 Create a `.env` file in the root with:
